@@ -1,0 +1,31 @@
+package basicJava;
+
+public class ArraySorting {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+        int[] a = new int[] {3,1,4,6,2,9};
+        System.out.println("Unsorted array:");
+        for (int i = 0 ; i<a.length;i++) {
+        	System.out.print(a[i]+" ");
+        }
+        System.out.println();
+        for (int i =1 ; i<a.length;i++) {
+        	int currentValue = a[i];
+            int j =i-1;
+            while (j>=0 && a[j]>currentValue) {
+            	a[j+1] = a[j];
+            	j--;
+            }
+            
+            a[j+1] = currentValue;
+        }
+            
+            System.out.println("The Sorted array is:");
+            for (int i =0;i<a.length;i++) {
+            	System.out.print(a[i]+ " ");
+            
+            
+	}
+	}
+}

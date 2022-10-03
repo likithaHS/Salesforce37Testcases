@@ -1,0 +1,142 @@
+package com.firebase.test.test;
+import java.awt.Desktop.Action;
+import java.io.IOException;
+import java.time.Duration;
+import java.util.List;
+import java.util.Properties;
+import java.util.Set;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.Cookie;
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
+import org.testng.annotations.Test;
+import org.openqa.selenium.JavascriptExecutor;
+import com.firebase.test.base.BaseTest;
+import com.firebase.test.pages.home.HomePage;
+import com.firebase.test.pages.login.LoginPage;
+import com.firebase.test.utility.CommonUtilities;
+
+public class AutomationScript extends BaseTest {
+	
+	
+	@Test
+	
+	public static void errorMessage01() {
+		//logger.info("test case-errorMessage01");
+		report.logTestInfo("test case-errorMessage01");
+		defineWait();
+		CommonUtilities cu = new CommonUtilities();
+		Properties applicationPropertiesFile=cu.loadFile("applicationProperties");
+		String UsernameString= cu.getApplicationProperty("vaild_username", applicationPropertiesFile);
+		LoginPage login=new LoginPage(driver);
+		login.loginNoPassword(UsernameString);
+		String actual= login.getErrorMessage();
+		String expected = "Please enter your password.";
+		if(!expected.equals(actual)) {
+			report.logTestFailed("errorMessage01 test case failed ");
+		}
+		Assert.assertEquals(actual, expected);
+	}
+	@Test
+	public static void loginSalesForce2()  {
+		
+		report.logTestInfo("loginSalesForce2");
+		defineWait();
+		CommonUtilities cu = new CommonUtilities();
+		Properties applicationPropertiesFile=cu.loadFile("applicationProperties");
+		String UsernameString= cu.getApplicationProperty("vaild_username", applicationPropertiesFile);
+		String passwordString= cu.getApplicationProperty("valid_Password", applicationPropertiesFile);
+		LoginPage login=new LoginPage(driver);
+		login.login(UsernameString,passwordString);
+		HomePage homepage=new  HomePage(driver);
+		String actual= homepage.displayPageTitle();
+		String expected = "Home Page ~ Salesforce - Developer Edition";
+		if(!expected.equals(actual)) {
+			report.logTestFailed("LoginSalesForce2 test case failed ");
+		}
+		Assert.assertEquals(actual, expected);
+		
+
+	}
+	/*@Test
+	public static void loginSalesForce3() {
+		logger.info("Testcase-loginSalesForce3");
+		report.logTestInfo("Testcase-loginSalesForce3");
+
+		defineWait();
+		CommonUtilities cu = new CommonUtilities();
+		Properties applicationPropertiesFile=cu.loadFile("applicationProperties");
+		
+    	By username_locator=By.id("username");
+		WebElement username = findByVisibility(username_locator,"username_locator"); 
+		enterText(username, cu.getApplicationProperty("vaild_username", applicationPropertiesFile), "vaild-uname");
+		By password_locator=By.id("password");
+		WebElement password = findByVisibility(password_locator,"password_locator"); 
+		enterText(password, cu.getApplicationProperty("valid_Password", applicationPropertiesFile), "valid_Password");
+		
+		By reminder_locator=By.id("rememberUn");
+		WebElement reminder = findByVisibility(reminder_locator,"reminder_locator"); 
+		clickButton(reminder, "reminder-button");
+		
+		By login_locator=By.id("Login");
+		WebElement loginbutton = findByClickable(login_locator,"login_locator");
+		clickButton(loginbutton, "login-button");
+		
+		By usermenu_locator= By.id("userNavLabel");
+		WebElement usermenu_drpdown =findByClickable(usermenu_locator,"usermenu_locator");
+		clickButton(usermenu_drpdown, "usermenu_drpdown");
+		String actual = driver.getTitle();
+		String expected = "Home Page ~ Salesforce - Developer Edition";
+		Assert.assertEquals(actual, expected);
+		salesforceLogout();
+	}
+  @Test
+	public static void loginSalesForce4b() {
+	  logger.info("Testcase-loginSalesForce4b");
+	  report.logTestInfo("Testcase-loginSalesForce4b");
+		defineWait();
+		CommonUtilities cu = new CommonUtilities();
+		Properties applicationPropertiesFile=cu.loadFile("applicationProperties");
+		
+		By username_locator=By.id("username");
+		WebElement username = findByVisibility(username_locator,"username_locator"); 
+		enterText(username, cu.getApplicationProperty("invaild_username", applicationPropertiesFile), "invaild-uname");
+		
+		By password_locator=By.id("password");
+		WebElement password = findByVisibility(password_locator,"password_locator"); 
+		enterText(password, cu.getApplicationProperty("invalid_Password", applicationPropertiesFile), "invalid_Password");
+		
+		By login_locator=By.id("Login");
+		WebElement loginbutton = findByClickable(login_locator,"login_locator");
+		clickButton(loginbutton, "login-button");
+	}
+	@Test
+  public static void loginSalesForce4a() {
+	  
+		logger.info("Testcase-loginSalesForce4a");
+		report.logTestInfo("Testcase-loginSalesForce4a");
+		defineWait();
+		CommonUtilities cu = new CommonUtilities();
+		Properties applicationPropertiesFile=cu.loadFile("applicationProperties");
+		By forgotpwd_locator=By.id("forgot_password_link");
+		WebElement forgotpwd = findByVisibility(forgotpwd_locator,"forgotpwd_locator"); 
+		clickButton(forgotpwd, "forgotpwd-button");
+		
+		By username_locator=By.id("un");
+		WebElement username = findByVisibility(username_locator,"username_locator"); 
+		enterText(username, cu.getApplicationProperty("vaild_username", applicationPropertiesFile), "vaild-uname");
+		
+		By continue_locator=By.id("continue");
+		WebElement continue1 = findByVisibility(continue_locator,"continue_locator"); 
+		clickButton(continue1, "continue1-button");
+		wait.until(ExpectedConditions.visibilityOfElementLocated(By.linkText("Return to Login")));
+	  
+  }*/
+}

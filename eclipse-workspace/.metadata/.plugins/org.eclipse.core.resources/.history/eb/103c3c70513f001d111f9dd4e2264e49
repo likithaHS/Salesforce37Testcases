@@ -1,0 +1,48 @@
+package com.firebase.test.pages.login;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+
+import com.firebase.test.pages.base.BasePage;
+
+public class LoginPage extends BasePage {
+	
+  @FindBy(id="username") WebElement username;
+  @FindBy(id="password") WebElement password;
+  @FindBy(id="Login") WebElement loginbutton;
+  @FindBy(id="error") WebElement errorMessage;
+  
+  public LoginPage(WebDriver driver) {
+	 super(driver);
+  }
+  
+  public void enterUserName(String usernameString) {
+	  waitByVisibility(username,"username");
+	  enterText(username, usernameString, "valid-username");
+	  
+  }
+  public void enterPassword(String passwordString) {
+	  enterText(password, passwordString, "valid-password");
+	  
+  }
+  public void clearPassword() {
+	  clearElement(password, "password-clear");
+	  
+  }
+  public void clickLoginButton() {
+	  clickButton(loginbutton, "login-button");
+  }
+  
+  public void login(String usernameString, String passwordString) {
+	  enterUserName(usernameString);
+	  enterPassword(passwordString);
+	  clickLoginButton();
+  }
+  public void loginNoPassword(String usernameString) {
+	  enterUserName(usernameString);
+	  clearPassword();
+	  clickLoginButton();
+  }
+}
