@@ -1,0 +1,29 @@
+package basicJava;
+
+public class MaxMin {
+
+	public static void main(String[] args) {
+		int[] a = new int[] { 10,11,12,13,24 };
+		int min =a[0];
+		int max = 0;
+		
+		
+		for (int i =0;i<a.length; i++)
+		{
+			if (min>a[i]) {
+				max = min;
+				min= a[i];
+			}
+			else if (max < a[i]) {
+				max = a[i];
+			}
+			
+		}
+		System.out.println("The min value is:" +min);
+		System.out.println("The max value is:" +max);
+		
+		// TODO Auto-generated method stub
+
+	}
+
+}

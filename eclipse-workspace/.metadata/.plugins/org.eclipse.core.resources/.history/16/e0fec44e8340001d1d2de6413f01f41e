@@ -1,0 +1,5 @@
+package com.firebase.test.pages.login;
+
+public class CheckEmailPage {
+
+}
