@@ -1,0 +1,28 @@
+package basicJava;
+import java.util.Scanner;
+
+public class Average {
+	
+	public static int average (int a, int b, int c) {
+		int result = (a+b+c)/3;
+		return result;
+	}
+	
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter three numbers:");
+		int a = sc.nextInt();
+		int b = sc.nextInt();
+		int c = sc.nextInt();
+		int r = average(a,b,c);
+		System.out.println("The Average of three numbers is :"+r);
+		sc.close();
+		
+		}
+		
+		// TODO Auto-generated method stub
+
+	}
+
+

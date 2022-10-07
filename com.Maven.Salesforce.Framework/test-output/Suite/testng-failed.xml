@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.firebase.test.utility.ListenerClass"/>
+  </listeners>
+  <test thread-count="5" name="Regression(failed)">
+    <parameter name="browserName" value="firefox"/>
+    <classes>
+      <class name="com.firebase.test.test.AutomationScript">
+        <methods>
+          <include name="tearDown"/>
+          <include name="teardownAfterTest"/>
+          <include name="setupBeforeTest"/>
+          <include name="setUp"/>
+          <include name="errorMessage01"/>
+        </methods>
+      </class> <!-- com.firebase.test.test.AutomationScript -->
+    </classes>
+  </test> <!-- Regression(failed) -->
+</suite> <!-- Failed suite [Suite] -->

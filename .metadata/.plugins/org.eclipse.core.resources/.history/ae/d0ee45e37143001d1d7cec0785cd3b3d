@@ -1,0 +1,20 @@
+package com.firebase.test.utility;
+
+import org.testng.ITestListener;
+import org.testng.ITestResult;
+
+public class ListenerClass implements ITestListener {
+	
+	GenerateReports report=GenerateReports.getInstance();
+	
+	public void onTestFailure(ITestResult result) {
+		
+		report.logTestFailed(result.getName());
+		
+	}
+	
+	public void onTestSuccess(ITestResult result) {
+		report.logTestInfo(result.getName());
+	}
+
+}

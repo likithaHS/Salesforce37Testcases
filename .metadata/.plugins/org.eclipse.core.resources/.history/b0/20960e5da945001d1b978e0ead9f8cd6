@@ -1,0 +1,11 @@
+package com.tests;
+
+import io.cucumber.testng.CucumberOptions;
+
+@CucumberOptions(
+		features= {"src/test/resources/salesforceLogin.feature"},
+		glue={"com.tests"}
+		)
+public class RunnerCalculator {
+
+}
