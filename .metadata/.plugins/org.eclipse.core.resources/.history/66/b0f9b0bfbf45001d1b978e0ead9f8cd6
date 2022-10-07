@@ -1,0 +1,11 @@
+Feature: login feature
+checking the login feature of firebase app
+
+  Scenario: login with correct credentials
+   Given when you go to url 
+    When i enter value of username 
+    When i enter value of password
+    And  click on login button
+    Then i should get the page title
+    
+  

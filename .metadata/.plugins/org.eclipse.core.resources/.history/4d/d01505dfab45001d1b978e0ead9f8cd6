@@ -1,0 +1,15 @@
+Feature: login feature
+checking the login feature of firebase app
+
+  Scenario: login with correct credentials
+   Given when you go to url 
+    When i enter value of username 
+    When i enter value of password
+    And  click on login button
+    Then i should get the page title
+    
+  Scenario: login with correct username but blank password
+   Given when you go to url "https://login.salesforce.com/"
+    When i enter value of username as "likithahs@gmail.com" and password as ""
+    And  click on login button
+    Then i should get the error message as "Please enter your password."  

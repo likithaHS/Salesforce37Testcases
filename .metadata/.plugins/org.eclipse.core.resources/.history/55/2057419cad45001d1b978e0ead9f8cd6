@@ -1,0 +1,25 @@
+package com.tests;
+
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
+
+public class SalesforceLoginStepDefination {
+	
+	@When("i enter value of username")
+	public void i_enter_value_of_username() {
+	   
+	}
+	@When("i enter value of password")
+	public void i_enter_value_of_password() {
+	   
+	}
+	@When("click on login button")
+	public void click_on_login_button() {
+	   
+	}
+	@Then("i should get the page title")
+	public void i_should_get_the_page_title() {
+	  
+	}
+
+}
