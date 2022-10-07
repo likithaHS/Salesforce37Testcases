@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename resource &apos;SalesForce/Resources/data.propeties&apos; to &apos;data.properties&apos;" description="Rename resource &apos;data.propeties&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Resources/data.propeties" name="data.properties" stamp="1663108286746" updateReferences="true"/>
-</session>
