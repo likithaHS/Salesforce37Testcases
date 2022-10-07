@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+<listener class-name="com.firebase.test.utility.ListenerClass"/>
+</listeners>
+  <test name="Regression">
+  <parameter name="browserName" value="firefox"/>
+    <classes>
+      <class name="com.firebase.test.test.AutomationScript">
+      <methods>
+      <include name="errorMessage01"/>
+      <include name="loginSalesForce2"/>
+      <include name="loginSalesForce3"/>
+       <include name="loginSalesForce4b"/>
+      <include name="loginSalesForce4a"/>
+      </methods>
+      </class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,15 @@
+package com.firebase.test.pages.login;
+
+import org.openqa.selenium.WebDriver;
+
+import com.firebase.test.pages.base.BasePage;
+
+public class CheckEmailPage extends BasePage{
+
+	public CheckEmailPage(WebDriver driver) {
+		
+		super(driver);
+		// TODO Auto-generated constructor stub
+	}
+
+}

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-10-04T22:32:19 PDT" name="Suite" finished-at="2022-10-04T22:33:13 PDT" duration-ms="53659">
+    <groups>
+    </groups>
+    <test started-at="2022-10-04T22:32:19 PDT" name="Regression" finished-at="2022-10-04T22:33:13 PDT" duration-ms="53659">
+      <class name="com.firebase.test.test.AutomationScript">
+        <test-method is-config="true" signature="setupBeforeTest()[pri:0, instance:com.firebase.test.test.AutomationScript@6239aba6]" started-at="2022-10-04T22:32:19 PDT" name="setupBeforeTest" finished-at="2022-10-04T22:32:19 PDT" duration-ms="83" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBeforeTest -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.firebase.test.test.AutomationScript@6239aba6]" started-at="2022-10-04T22:32:19 PDT" name="setUp" finished-at="2022-10-04T22:32:25 PDT" duration-ms="5314" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void com.firebase.test.test.AutomationScript.errorMessage01()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="errorMessage01()[pri:0, instance:com.firebase.test.test.AutomationScript@6239aba6]" started-at="2022-10-04T22:32:25 PDT" name="errorMessage01" finished-at="2022-10-04T22:32:25 PDT" duration-ms="512" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- errorMessage01 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.firebase.test.test.AutomationScript@6239aba6]" started-at="2022-10-04T22:32:25 PDT" name="tearDown" finished-at="2022-10-04T22:32:29 PDT" duration-ms="3926" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.firebase.test.test.AutomationScript@6239aba6]" started-at="2022-10-04T22:32:29 PDT" name="setUp" finished-at="2022-10-04T22:32:33 PDT" duration-ms="4036" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void com.firebase.test.test.AutomationScript.loginSalesForce2()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginSalesForce2()[pri:0, instance:com.firebase.test.test.AutomationScript@6239aba6]" started-at="2022-10-04T22:32:33 PDT" name="loginSalesForce2" finished-at="2022-10-04T22:32:38 PDT" duration-ms="4761" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginSalesForce2 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.firebase.test.test.AutomationScript@6239aba6]" started-at="2022-10-04T22:32:38 PDT" name="tearDown" finished-at="2022-10-04T22:32:42 PDT" duration-ms="3772" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.firebase.test.test.AutomationScript@6239aba6]" started-at="2022-10-04T22:32:42 PDT" name="setUp" finished-at="2022-10-04T22:32:46 PDT" duration-ms="3939" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void com.firebase.test.test.AutomationScript.loginSalesForce3()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginSalesForce3()[pri:0, instance:com.firebase.test.test.AutomationScript@6239aba6]" started-at="2022-10-04T22:32:46 PDT" name="loginSalesForce3" finished-at="2022-10-04T22:32:52 PDT" duration-ms="6920" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginSalesForce3 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.firebase.test.test.AutomationScript@6239aba6]" started-at="2022-10-04T22:32:52 PDT" name="tearDown" finished-at="2022-10-04T22:32:56 PDT" duration-ms="3827" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.firebase.test.test.AutomationScript@6239aba6]" started-at="2022-10-04T22:32:56 PDT" name="setUp" finished-at="2022-10-04T22:33:00 PDT" duration-ms="3990" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void com.firebase.test.test.AutomationScript.loginSalesForce4b()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginSalesForce4b()[pri:0, instance:com.firebase.test.test.AutomationScript@6239aba6]" started-at="2022-10-04T22:33:00 PDT" name="loginSalesForce4b" finished-at="2022-10-04T22:33:01 PDT" duration-ms="374" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginSalesForce4b -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.firebase.test.test.AutomationScript@6239aba6]" started-at="2022-10-04T22:33:01 PDT" name="tearDown" finished-at="2022-10-04T22:33:04 PDT" duration-ms="3695" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.firebase.test.test.AutomationScript@6239aba6]" started-at="2022-10-04T22:33:04 PDT" name="setUp" finished-at="2022-10-04T22:33:08 PDT" duration-ms="3900" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void com.firebase.test.test.AutomationScript.loginSalesForce4a()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginSalesForce4a()[pri:0, instance:com.firebase.test.test.AutomationScript@6239aba6]" started-at="2022-10-04T22:33:08 PDT" name="loginSalesForce4a" finished-at="2022-10-04T22:33:09 PDT" duration-ms="808" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginSalesForce4a -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.firebase.test.test.AutomationScript@6239aba6]" started-at="2022-10-04T22:33:09 PDT" name="tearDown" finished-at="2022-10-04T22:33:13 PDT" duration-ms="3582" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="teardownAfterTest()[pri:0, instance:com.firebase.test.test.AutomationScript@6239aba6]" started-at="2022-10-04T22:33:13 PDT" name="teardownAfterTest" finished-at="2022-10-04T22:33:13 PDT" duration-ms="185" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownAfterTest -->
+      </class> <!-- com.firebase.test.test.AutomationScript -->
+    </test> <!-- Regression -->
+  </suite> <!-- Suite -->
+</testng-results>

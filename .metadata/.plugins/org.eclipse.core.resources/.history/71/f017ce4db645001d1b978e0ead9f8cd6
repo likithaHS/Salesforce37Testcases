@@ -1,0 +1,46 @@
+package com.tests;
+
+import java.time.Duration;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+public class SalesforceLoginStepDefination {
+	WebDriver driver=null;
+	WebDriverWait wait=null;
+	
+	@Given("when you go to url")
+	public void when_you_go_to_url() {
+		WebDriverManager.firefoxdriver().setup();
+		driver=new FirefoxDriver();
+		driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(30));
+		driver.get(url);
+		driver.manage().window().maximize();
+	    Thread.sleep(2000);
+	   
+	}
+
+	@When("i enter value of username")
+	public void i_enter_value_of_username() {
+		
+	}
+	@When("i enter value of password")
+	public void i_enter_value_of_password() {
+	   
+	}
+	@When("click on login button")
+	public void click_on_login_button() {
+	   
+	}
+	@Then("i should get the page title")
+	public void i_should_get_the_page_title() {
+	  
+	}
+
+}

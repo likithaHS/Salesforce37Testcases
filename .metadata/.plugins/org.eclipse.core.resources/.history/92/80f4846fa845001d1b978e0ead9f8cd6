@@ -1,0 +1,12 @@
+
+Feature: Calculator
+  I want to implment add subtract div and multiplication
+
+  Scenario: Addition two number
+    When i add two number
+    And some other action
+    And yet another action
+    Then I validate the outcomes
+    And check more outcomes
+
+  

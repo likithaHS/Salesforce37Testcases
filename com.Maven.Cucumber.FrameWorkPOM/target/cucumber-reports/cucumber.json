@@ -1,0 +1,764 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Goto url",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3569888000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "when you go to url",
+            "match": {
+              "location": "com.tests.SalesforceLoginStepDefination.when_you_go_to_url()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-10-07T05:32:14.594Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2788387900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.tests.SalesforceLoginStepDefination.setup()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "login with correct credentials",
+        "description": "",
+        "id": "login-feature;login-with-correct-credentials",
+        "after": [
+          {
+            "result": {
+              "duration": 3203911900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.tests.SalesforceLoginStepDefination.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 23653200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user on \"loginPage\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"loginPage\"",
+                  "offset": 8
+                }
+              ],
+              "location": "com.tests.SalesforceLoginStepDefination.user_on(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 123078700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "i enter value of username",
+            "match": {
+              "location": "com.tests.SalesforceLoginStepDefination.i_enter_value_of_username()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 58330500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "i enter value of password",
+            "match": {
+              "location": "com.tests.SalesforceLoginStepDefination.i_enter_value_of_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5245350200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "click on login button",
+            "match": {
+              "location": "com.tests.SalesforceLoginStepDefination.click_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2214800,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user on \"homePage\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"homePage\"",
+                  "offset": 8
+                }
+              ],
+              "location": "com.tests.SalesforceLoginStepDefination.user_on(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9462149100,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "i should get the page title",
+            "match": {
+              "location": "com.tests.SalesforceLoginStepDefination.i_should_get_the_page_title()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Goto url",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3415793800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "when you go to url",
+            "match": {
+              "location": "com.tests.SalesforceLoginStepDefination.when_you_go_to_url()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-10-07T05:32:39.131Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1789867200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.tests.SalesforceLoginStepDefination.setup()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "login with blank password",
+        "description": "",
+        "id": "login-feature;login-with-blank-password",
+        "after": [
+          {
+            "result": {
+              "duration": 2716972400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.tests.SalesforceLoginStepDefination.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3910400,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user on \"loginPage\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"loginPage\"",
+                  "offset": 8
+                }
+              ],
+              "location": "com.tests.SalesforceLoginStepDefination.user_on(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 100599900,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "i enter value of username",
+            "match": {
+              "location": "com.tests.SalesforceLoginStepDefination.i_enter_value_of_username()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 27167500,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "no password is entered",
+            "match": {
+              "location": "com.tests.SalesforceLoginStepDefination.no_password_is_entered()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 384984500,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "click on login button",
+            "match": {
+              "location": "com.tests.SalesforceLoginStepDefination.click_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 29080700,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "i should get error message",
+            "match": {
+              "location": "com.tests.SalesforceLoginStepDefination.i_should_get_error_message()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Goto url",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3377200600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "when you go to url",
+            "match": {
+              "location": "com.tests.SalesforceLoginStepDefination.when_you_go_to_url()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-10-07T05:32:47.610Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1732400800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.tests.SalesforceLoginStepDefination.setup()"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "login with invalid username and  password",
+        "description": "",
+        "id": "login-feature;login-with-invalid-username-and--password",
+        "after": [
+          {
+            "result": {
+              "duration": 2677224100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.tests.SalesforceLoginStepDefination.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1008200,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "user on \"loginPage\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"loginPage\"",
+                  "offset": 8
+                }
+              ],
+              "location": "com.tests.SalesforceLoginStepDefination.user_on(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 83267000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "i enter invalid value of username",
+            "match": {
+              "location": "com.tests.SalesforceLoginStepDefination.i_enter_invalid_value_of_username()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 55587100,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "i enter invalid value of password",
+            "match": {
+              "location": "com.tests.SalesforceLoginStepDefination.i_enter_invalid_value_of_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 266682800,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "click on login button",
+            "match": {
+              "location": "com.tests.SalesforceLoginStepDefination.click_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 29011800,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "i should get enter valid username password message",
+            "match": {
+              "location": "com.tests.SalesforceLoginStepDefination.i_should_get_enter_valid_username_password_message()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Goto url",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3440524300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "when you go to url",
+            "match": {
+              "location": "com.tests.SalesforceLoginStepDefination.when_you_go_to_url()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-10-07T05:32:55.838Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1806735500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.tests.SalesforceLoginStepDefination.setup()"
+            }
+          }
+        ],
+        "line": 32,
+        "name": "login with correct credentials and remember selected",
+        "description": "",
+        "id": "login-feature;login-with-correct-credentials-and-remember-selected",
+        "after": [
+          {
+            "result": {
+              "duration": 3224822800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.tests.SalesforceLoginStepDefination.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 497000,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "user on \"loginPage\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"loginPage\"",
+                  "offset": 8
+                }
+              ],
+              "location": "com.tests.SalesforceLoginStepDefination.user_on(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 89918600,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "i enter value of username",
+            "match": {
+              "location": "com.tests.SalesforceLoginStepDefination.i_enter_value_of_username()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 62661600,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "i enter value of password",
+            "match": {
+              "location": "com.tests.SalesforceLoginStepDefination.i_enter_value_of_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 258871000,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "click on remember",
+            "match": {
+              "location": "com.tests.SalesforceLoginStepDefination.click_on_remember()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2643486500,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "click on login button",
+            "match": {
+              "location": "com.tests.SalesforceLoginStepDefination.click_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 999800,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "user on \"homePage\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"homePage\"",
+                  "offset": 8
+                }
+              ],
+              "location": "com.tests.SalesforceLoginStepDefination.user_on(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1612046100,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "i should get the page title",
+            "match": {
+              "location": "com.tests.SalesforceLoginStepDefination.i_should_get_the_page_title()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 736055400,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "click on logout",
+            "match": {
+              "location": "com.tests.SalesforceLoginStepDefination.click_on_logout()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 803800,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "user on \"loginPage\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"loginPage\"",
+                  "offset": 8
+                }
+              ],
+              "location": "com.tests.SalesforceLoginStepDefination.user_on(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1139780200,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "check for Username and remember",
+            "match": {
+              "location": "com.tests.SalesforceLoginStepDefination.check_for_username_and_remember()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Goto url",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3383083000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "when you go to url",
+            "match": {
+              "location": "com.tests.SalesforceLoginStepDefination.when_you_go_to_url()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-10-07T05:33:10.876Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1784227200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.tests.SalesforceLoginStepDefination.setup()"
+            }
+          }
+        ],
+        "line": 45,
+        "name": "forgot password",
+        "description": "",
+        "id": "login-feature;forgot-password",
+        "after": [
+          {
+            "result": {
+              "duration": 2723292300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.tests.SalesforceLoginStepDefination.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1009600,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "user on \"loginPage\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"loginPage\"",
+                  "offset": 8
+                }
+              ],
+              "location": "com.tests.SalesforceLoginStepDefination.user_on(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 215336800,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "click on forgot password",
+            "match": {
+              "location": "com.tests.SalesforceLoginStepDefination.click_on_forgot_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1500700,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "user on \"forgotPasswordPage\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"forgotPasswordPage\"",
+                  "offset": 8
+                }
+              ],
+              "location": "com.tests.SalesforceLoginStepDefination.user_on(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 91943400,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "i enter value of username in forgotpage",
+            "match": {
+              "location": "com.tests.SalesforceLoginStepDefination.i_enter_value_of_username_in_forgotpage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 463468100,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "Click on continue",
+            "match": {
+              "location": "com.tests.SalesforceLoginStepDefination.click_on_continue()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1602300,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "user on \"checkemailpage\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"checkemailpage\"",
+                  "offset": 8
+                }
+              ],
+              "location": "com.tests.SalesforceLoginStepDefination.user_on(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 37545400,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "i should get check email page",
+            "match": {
+              "location": "com.tests.SalesforceLoginStepDefination.i_should_get_check_email_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "login feature",
+    "description": "",
+    "id": "login-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/salesforceLogin2.feature",
+    "tags": []
+  }
+]
