@@ -46,15 +46,20 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="com.tests"/>
+			<item value="com.test"/>
 			<item value="com.steps"/>
 			<item value="cucumberFrameworkPOM2"/>
 			<item value="CucumberFrameworkPOM2"/>
-			<item value="com.test"/>
 			<item value="com.testing"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="com.Maven.Appeium.test"/>
+			<item value="com.Maven.APIREST.CucumberFramework"/>
+			<item value="com.Maven.APIREST.FrameWorkPOJO"/>
+			<item value="com.Maven.APIRestTesting"/>
 			<item value="com.Maven.Cucumber.FrameWorkPOM"/>
 			<item value="cucumberFrameworkPOM2"/>
 			<item value="com.step2"/>

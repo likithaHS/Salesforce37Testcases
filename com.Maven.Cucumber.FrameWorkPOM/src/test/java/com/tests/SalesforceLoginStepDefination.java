@@ -219,8 +219,8 @@ public class SalesforceLoginStepDefination {
 
 	@After
 	public void tearDown() {
-		String path = getscreenshortdriver();
-		System.out.println("Screenshot taken at path:" + path);
+		//String path = getscreenshortdriver();
+		//System.out.println("Screenshot taken at path:" + path);
 		sleep(2);
 		driver.close();
 	}
