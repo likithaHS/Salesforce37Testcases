@@ -2,6 +2,7 @@ package com.test.helpers;
 
 import org.hamcrest.Matchers;
 
+import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 
 public class ReusableMethods {
@@ -11,8 +12,8 @@ public class ReusableMethods {
 
 	}
 
-	public static String contentType(Response response) {
-		return response.getContentType();
+	public static void contentType(Response response) {
+		 response.then().contentType(ContentType.JSON);
 
 	}
 

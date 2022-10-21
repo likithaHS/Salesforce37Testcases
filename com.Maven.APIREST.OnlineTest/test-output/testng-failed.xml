@@ -8,8 +8,8 @@
           <include name="teardownAfterTest"/>
           <include name="setUp"/>
           <include name="setUp"/>
-          <include name="TC_003_deleteUserdataCreated"/>
-          <include name="TC_004_deleteUserdata"/>
+          <include name="TC_001__getuserdata"/>
+          <include name="TC_005__getuserdatabyID"/>
           <include name="setupBeforeTest"/>
         </methods>
       </class> <!-- com.test.test.TekArchApiTestScriptE2E -->
