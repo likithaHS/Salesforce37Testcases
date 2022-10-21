@@ -47,7 +47,7 @@ public class TekArchApiTestScriptE2E extends UserServiceHelpers {
 	@Test
 	public static void TC_001__getuserdata() {
 
-		// getUserData();
+	System.out.println("\n\n**********TC_001__getuserdata*********************\n\n");
 
 		List<DataPOJO> listOfdata = getUserData();
 		System.out.println("First user information in the userlist is :\n" + listOfdata.get(0));
@@ -58,6 +58,7 @@ public class TekArchApiTestScriptE2E extends UserServiceHelpers {
 
 	@Test
 	public static void TC_002_AddUserdata() {
+		System.out.println("\n\n**********TC_002_AddUserdata*********************\n\n");
 		Response response = addUSerData();
 		response.prettyPrint();
 		report.logTestInfo("data been added successfully");
@@ -67,6 +68,7 @@ public class TekArchApiTestScriptE2E extends UserServiceHelpers {
 
 	@Test
 	public static void TC_003_deleteUserdataCreated() {
+		System.out.println("\n\n**********TC_003_deleteUserdataCreated*********************\n\n");
 		Response response = deleteUserData();
 		response.prettyPrint();
 		report.logTestInfo("data been deleted successfully");
@@ -80,6 +82,7 @@ public class TekArchApiTestScriptE2E extends UserServiceHelpers {
 
 	@Test
 	public static void TC_004_deleteUserdata() {
+		System.out.println("\n\n**********TC_004_deleteUserdata*********************\n\n");
 		Response response = deleteUserData2();
 		response.prettyPrint();
 		report.logTestInfo("data been deleted successfully");
@@ -92,12 +95,14 @@ public class TekArchApiTestScriptE2E extends UserServiceHelpers {
 
 	@Test
 	public static void TC_005__getuserdatabyID() {
+		System.out.println("\n\n**********TC_005__getuserdatabyID*********************\n\n");
 		Response response = getUserDatabyID();
+		System.out.println("Employee data with id =2 is fetched sucussufully\n");
 		ReusableMethods.verifyStatusCode(response, 200);
 		ReusableMethods.verifyStatussuccess(response);
 		ReusableMethods.contentType(response);
 		report.logTestInfo("Employee data with id =2 is fetched sucussufully\n" + response.prettyPrint());
-		System.out.println("Employee data with id =2 is fetched sucussufully" + response.prettyPrint());
+		System.out.println("Employee data with id =2 is fetched sucussufully\n" + response.prettyPrint());
 	}
 
 }

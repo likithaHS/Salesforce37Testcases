@@ -39,7 +39,7 @@ public class UserServiceHelpers {
 		report.logTestInfo("Response body status is:" + getEmployeeDeatils.getStatus());
 		List<DataPOJO> getEmplyoeeData = getEmployeeDeatils.getData();
 		System.out.println("Total number of data record is:" + getEmplyoeeData.size());
-		report.logTestInfo("Response body status is:" + getEmployeeDeatils.getStatus());
+		report.logTestInfo("Total number of data record is:" + getEmplyoeeData.size());
 		// System.out.println("Total number of users extracted from getUserdata is
 		// "+response.jsonPath().get("data.size()"));
 
@@ -89,7 +89,7 @@ public class UserServiceHelpers {
 		//response.then().body("status", Matchers.equalTo("success"));
 		// Map<String,?> Emplyoeedetails = response.path("data.find{it.id == 2}");
 		// System.out.println("EmployeeDeatils: "+Emplyoeedetails);
-		response.prettyPrint();
+		//response.prettyPrint();
 		return response;
 
 	}
