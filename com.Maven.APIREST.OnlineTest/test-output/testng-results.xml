@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="3" failed="2" skipped="0">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-10-20T23:38:20 PDT" name="Suite" finished-at="2022-10-20T23:38:25 PDT" duration-ms="4941">
+  <suite started-at="2022-10-20T23:47:24 PDT" name="Suite" finished-at="2022-10-20T23:47:29 PDT" duration-ms="4899">
     <groups>
     </groups>
-    <test started-at="2022-10-20T23:38:20 PDT" name="Test" finished-at="2022-10-20T23:38:25 PDT" duration-ms="4941">
+    <test started-at="2022-10-20T23:47:24 PDT" name="Test" finished-at="2022-10-20T23:47:29 PDT" duration-ms="4899">
       <class name="com.test.test.TekArchApiTestScriptE2E">
-        <test-method is-config="true" signature="setupBeforeTest()[pri:0, instance:com.test.test.TekArchApiTestScriptE2E@7b9a4292]" started-at="2022-10-20T23:38:20 PDT" name="setupBeforeTest" finished-at="2022-10-20T23:38:21 PDT" duration-ms="129" status="PASS">
+        <test-method is-config="true" signature="setupBeforeTest()[pri:0, instance:com.test.test.TekArchApiTestScriptE2E@7b9a4292]" started-at="2022-10-20T23:47:24 PDT" name="setupBeforeTest" finished-at="2022-10-20T23:47:24 PDT" duration-ms="113" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupBeforeTest -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.test.test.TekArchApiTestScriptE2E@7b9a4292]" started-at="2022-10-20T23:38:21 PDT" name="setUp" finished-at="2022-10-20T23:38:21 PDT" duration-ms="378" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.test.test.TekArchApiTestScriptE2E@7b9a4292]" started-at="2022-10-20T23:47:24 PDT" name="setUp" finished-at="2022-10-20T23:47:25 PDT" duration-ms="377" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.test.test.TekArchApiTestScriptE2E@7b9a4292]" started-at="2022-10-20T23:38:21 PDT" name="setUp" finished-at="2022-10-20T23:38:21 PDT" duration-ms="9" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.test.test.TekArchApiTestScriptE2E@7b9a4292]" started-at="2022-10-20T23:47:25 PDT" name="setUp" finished-at="2022-10-20T23:47:25 PDT" duration-ms="9" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -26,66 +26,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="TC_001__getuserdata()[pri:0, instance:com.test.test.TekArchApiTestScriptE2E@7b9a4292]" started-at="2022-10-20T23:38:21 PDT" name="TC_001__getuserdata" finished-at="2022-10-20T23:38:22 PDT" duration-ms="1282" status="FAIL">
-          <exception class="java.lang.IllegalStateException">
-            <message>
-              <![CDATA[Cannot parse object because no supported Content-Type was specified in response. Content-Type was 'text/html; charset=UTF-8'.]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.IllegalStateException: Cannot parse object because no supported Content-Type was specified in response. Content-Type was 'text/html; charset=UTF-8'.
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:72)
-at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:105)
-at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:59)
-at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
-at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
-at io.restassured.internal.mapping.ObjectMapping.deserialize(ObjectMapping.groovy:95)
-at io.restassured.internal.mapping.ObjectMapping$deserialize.call(Unknown Source)
-at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47)
-at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
-at io.restassured.internal.RestAssuredResponseOptionsGroovyImpl.as(RestAssuredResponseOptionsGroovyImpl.groovy:231)
-at io.restassured.internal.RestAssuredResponseOptionsImpl.as(RestAssuredResponseOptionsImpl.java:169)
-at com.test.helpers.UserServiceHelpers.getUserData(UserServiceHelpers.java:35)
-at com.test.test.TekArchApiTestScriptE2E.TC_001__getuserdata(TekArchApiTestScriptE2E.java:52)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:806)
-at org.testng.TestRunner.run(TestRunner.java:601)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.IllegalStateException -->
+        <test-method signature="TC_001__getuserdata()[pri:0, instance:com.test.test.TekArchApiTestScriptE2E@7b9a4292]" started-at="2022-10-20T23:47:25 PDT" name="TC_001__getuserdata" finished-at="2022-10-20T23:47:27 PDT" duration-ms="2125" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_001__getuserdata -->
-        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.test.test.TekArchApiTestScriptE2E@7b9a4292]" started-at="2022-10-20T23:38:22 PDT" name="setUp" finished-at="2022-10-20T23:38:22 PDT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.test.test.TekArchApiTestScriptE2E@7b9a4292]" started-at="2022-10-20T23:47:27 PDT" name="setUp" finished-at="2022-10-20T23:47:27 PDT" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -96,11 +41,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="TC_002_AddUserdata()[pri:0, instance:com.test.test.TekArchApiTestScriptE2E@7b9a4292]" started-at="2022-10-20T23:38:22 PDT" name="TC_002_AddUserdata" finished-at="2022-10-20T23:38:23 PDT" duration-ms="1191" status="PASS">
+        <test-method signature="TC_002_AddUserdata()[pri:0, instance:com.test.test.TekArchApiTestScriptE2E@7b9a4292]" started-at="2022-10-20T23:47:27 PDT" name="TC_002_AddUserdata" finished-at="2022-10-20T23:47:27 PDT" duration-ms="548" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_002_AddUserdata -->
-        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.test.test.TekArchApiTestScriptE2E@7b9a4292]" started-at="2022-10-20T23:38:24 PDT" name="setUp" finished-at="2022-10-20T23:38:24 PDT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.test.test.TekArchApiTestScriptE2E@7b9a4292]" started-at="2022-10-20T23:47:27 PDT" name="setUp" finished-at="2022-10-20T23:47:27 PDT" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -111,11 +56,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="TC_003_deleteUserdataCreated()[pri:0, instance:com.test.test.TekArchApiTestScriptE2E@7b9a4292]" started-at="2022-10-20T23:38:24 PDT" name="TC_003_deleteUserdataCreated" finished-at="2022-10-20T23:38:24 PDT" duration-ms="527" status="PASS">
+        <test-method signature="TC_003_deleteUserdataCreated()[pri:0, instance:com.test.test.TekArchApiTestScriptE2E@7b9a4292]" started-at="2022-10-20T23:47:27 PDT" name="TC_003_deleteUserdataCreated" finished-at="2022-10-20T23:47:28 PDT" duration-ms="507" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_003_deleteUserdataCreated -->
-        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.test.test.TekArchApiTestScriptE2E@7b9a4292]" started-at="2022-10-20T23:38:24 PDT" name="setUp" finished-at="2022-10-20T23:38:24 PDT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.test.test.TekArchApiTestScriptE2E@7b9a4292]" started-at="2022-10-20T23:47:28 PDT" name="setUp" finished-at="2022-10-20T23:47:28 PDT" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -126,11 +71,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="TC_004_deleteUserdata()[pri:0, instance:com.test.test.TekArchApiTestScriptE2E@7b9a4292]" started-at="2022-10-20T23:38:24 PDT" name="TC_004_deleteUserdata" finished-at="2022-10-20T23:38:25 PDT" duration-ms="586" status="PASS">
+        <test-method signature="TC_004_deleteUserdata()[pri:0, instance:com.test.test.TekArchApiTestScriptE2E@7b9a4292]" started-at="2022-10-20T23:47:28 PDT" name="TC_004_deleteUserdata" finished-at="2022-10-20T23:47:28 PDT" duration-ms="482" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_004_deleteUserdata -->
-        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.test.test.TekArchApiTestScriptE2E@7b9a4292]" started-at="2022-10-20T23:38:25 PDT" name="setUp" finished-at="2022-10-20T23:38:25 PDT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.test.test.TekArchApiTestScriptE2E@7b9a4292]" started-at="2022-10-20T23:47:28 PDT" name="setUp" finished-at="2022-10-20T23:47:28 PDT" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -141,90 +86,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="TC_005__getuserdatabyID()[pri:0, instance:com.test.test.TekArchApiTestScriptE2E@7b9a4292]" started-at="2022-10-20T23:38:25 PDT" name="TC_005__getuserdatabyID" finished-at="2022-10-20T23:38:25 PDT" duration-ms="612" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[1 expectation failed.
-Expected status code <200> but was <429>.
-]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: 1 expectation failed.
-Expected status code <200> but was <429>.
-
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:72)
-at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:105)
-at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:59)
-at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
-at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
-at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:499)
-at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
-at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:684)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
-at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:193)
-at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:61)
-at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
-at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:127)
-at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
-at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
-at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
-at io.restassured.internal.ValidatableResponseImpl.super$2$statusCode(ValidatableResponseImpl.groovy)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:107)
-at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
-at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1268)
-at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)
-at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy:142)
-at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy)
-at com.test.helpers.ReusableMethods.verifyStatusCode(ReusableMethods.java:21)
-at com.test.test.TekArchApiTestScriptE2E.TC_005__getuserdatabyID(TekArchApiTestScriptE2E.java:101)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:806)
-at org.testng.TestRunner.run(TestRunner.java:601)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        <test-method signature="TC_005__getuserdatabyID()[pri:0, instance:com.test.test.TekArchApiTestScriptE2E@7b9a4292]" started-at="2022-10-20T23:47:28 PDT" name="TC_005__getuserdatabyID" finished-at="2022-10-20T23:47:29 PDT" duration-ms="509" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_005__getuserdatabyID -->
-        <test-method is-config="true" signature="teardownAfterTest()[pri:0, instance:com.test.test.TekArchApiTestScriptE2E@7b9a4292]" started-at="2022-10-20T23:38:25 PDT" name="teardownAfterTest" finished-at="2022-10-20T23:38:25 PDT" duration-ms="180" status="PASS">
+        <test-method is-config="true" signature="teardownAfterTest()[pri:0, instance:com.test.test.TekArchApiTestScriptE2E@7b9a4292]" started-at="2022-10-20T23:47:29 PDT" name="teardownAfterTest" finished-at="2022-10-20T23:47:29 PDT" duration-ms="182" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardownAfterTest -->
