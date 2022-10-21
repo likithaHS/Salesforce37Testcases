@@ -12,7 +12,7 @@ Feature: login feature
     When user on "homePage"
     Then i should get the page title
     
-   @regression
+  @regression
   Scenario: login with blank password
     When user on "loginPage"
     When i enter value of username 
@@ -41,7 +41,7 @@ Feature: login feature
     When user on "loginPage"
     Then check for Username and remember
     
-     @regression
+   @regression
   Scenario: forgot password
     When user on "loginPage"
     When click on forgot password

@@ -475,7 +475,7 @@ public class BaseTest {
 		WebElement yearView = findByVisibility(calendarYear_locator, "calendarYear_locator");
 		selectElelmentByVisibleText(yearView, futureYear);
 
-		WebElement calendar = findByVisibility(By.xpath("//*[@id=\"datePickerCalendar\"]"), "calemdar");
+		WebElement calendar = findByVisibility(By.xpath("//*[@id=\"datePickerCalendar\"]"), "calendar");
 		List<WebElement> rows = calendar.findElements(By.tagName("tr"));
 		for (WebElement row : rows) {
 			List<WebElement> cells = row.findElements(By.tagName("td"));

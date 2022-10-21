@@ -4,6 +4,6 @@ com\login\page\ForgotPasswordPage.class
 com\home\page\HomePage.class
 com\tests\SalesforceLoginStepDefination.class
 com\login\page\LoginPage.class
-com\tests\RunnerCalculator.class
 com\base\page\BasePage.class
 com\login\page\CheckEmailPage.class
+com\tests\Runner1.class

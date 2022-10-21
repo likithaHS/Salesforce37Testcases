@@ -1,30 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
-		<item key="selection" value="System.out.println"/>
+		<item key="selection" value="select"/>
 		<item key="wrap" value="true"/>
 		<item key="casesensitive" value="false"/>
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
+			<item value="Select"/>
+			<item value="select"/>
+			<item value="additionalProperties"/>
+			<item value="LoginRequest"/>
+			<item value="GetUserdataPOJO"/>
+			<item value="AddUserPOJO"/>
+			<item value="UpdateUserPOJO"/>
+			<item value="DeleteUserPOJO"/>
+			<item value="allEmplyoeeName"/>
 			<item value="report.logTestFailed"/>
 			<item value="report.logTestInfo"/>
 			<item value="include"/>
 			<item value="popup"/>
 			<item value="userMenuTC13"/>
 			<item value="exclude"/>
-			<item value="select"/>
-			<item value="account_name"/>
-			<item value="enter_accountname"/>
-			<item value="logger.info"/>
-			<item value="screenshot"/>
-			<item value="aftermeth"/>
-			<item value="aftermethod"/>
-			<item value="after"/>
-			<item value="screen"/>
 		</list>
 		<list key="replacehistory">
+			<item value="LoginRequestPOJO"/>
+			<item value="GetUserDataPOJO"/>
+			<item value="AddUserDataPOJO"/>
+			<item value="UpdateUserDataPOJO"/>
+			<item value="DeleteUserDataPOJO"/>
 			<item value="System.out.println"/>
 			<item value="exclude"/>
 			<item value="include"/>
@@ -36,6 +41,6 @@
 		<item key="DIALOG_Y_ORIGIN" value="505"/>
 		<item key="DIALOG_WIDTH" value="414"/>
 		<item key="DIALOG_HEIGHT" value="454"/>
-		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|5|0|Segoe UI"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
 	</section>
 </section>
